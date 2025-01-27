@@ -24,7 +24,7 @@ repositories {
 Add the AAR file as a dependency:
 ```java
 dependencies {
-    implementation(name: 'moddakir-sdk-v1.0', ext: 'aar')
+    implementation(name: 'moddakir-sdk-v1.x.x', ext: 'aar')
 }
 ```
 3. Sync the Project
