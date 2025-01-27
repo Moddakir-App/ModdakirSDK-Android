@@ -81,7 +81,7 @@ dependencies {
 
 Call makeCall method :
 ```java
-makeCall(String moddakirName,String moddakirKey, Context Context ,String Gender,
+makeCall(String moddakirId,String moddakirKey, Context Context ,String Gender,
 String Name,String Phone,String Email,
 String Language, boolean isLightMode, Integer primaryColor)
 ```
@@ -101,7 +101,7 @@ Present the rating done pop-up after rating the teacher and the call.
 
 ### this funtion take:
 
-moddakirName : Contact Moddakir Support to get this value
+moddakirId : Contact Moddakir Support to get this value
 
 moddakirKey: Contact Moddakir Support to get this value
 
