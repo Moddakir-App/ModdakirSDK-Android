@@ -101,9 +101,9 @@ Present the rating done pop-up after rating the teacher and the call.
 
 ### this funtion take:
 
-AppID : Contact Moddakir Support to get this value
+moddakirId : Contact Moddakir Support to get this value
 
-AppKey: Contact Moddakir Support to get this value
+moddakirKey: Contact Moddakir Support to get this value
 
 Context: Context of activity that will start the call
 
