@@ -101,7 +101,7 @@ Present the rating done pop-up after rating the teacher and the call.
 
 ### this funtion take:
 
-moddakirId : Contact Moddakir Support to get this value
+moddakirName : Contact Moddakir Support to get this value
 
 moddakirKey: Contact Moddakir Support to get this value
 
