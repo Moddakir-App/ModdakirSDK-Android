@@ -38,7 +38,7 @@ Verify that your AAR file has been added to the dependencies list.
 3- Add In your build.gradle these dependencies :
 ```java
 dependencies {
-    implementation(name: 'moddakir-sdk-v1.0', ext: 'aar')
+    implementation(name: 'moddakir-sdk-v1.x.x', ext: 'aar')
 }
 ```
 
