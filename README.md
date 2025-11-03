@@ -56,15 +56,15 @@ dependencies {
     implementation("com.akexorcist:localization:1.2.11")
 
     // Agora
-    implementation("io.agora.rtc:full-sdk:4.3.2")
-    implementation("io.agora.rtm:rtm-sdk:2.1.12")
+    implementation("io.agora.rtc:full-sdk:4.5.0")
+    implementation("io.agora.rtm:rtm-sdk:2.2.4")
 
     // RxJava
     implementation("io.reactivex.rxjava2:rxandroid:2.1.1")
-    implementation("io.reactivex.rxjava2:rxjava:2.2.17")
+    implementation("io.reactivex.rxjava2:rxjava:2.2.21")
 
     // Retrofit
-    implementation("com.squareup.retrofit2:converter-gson:2.8.1")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
     implementation("com.squareup.retrofit2:adapter-rxjava2:2.3.0")
 
     // Easy Permissions
@@ -72,6 +72,9 @@ dependencies {
 
     // Timber
     implementation("com.jakewharton.timber:timber:4.7.1")
+
+    //Glide
+    implementation ("com.github.bumptech.glide:glide:4.15.1")
 }
 ```
 
