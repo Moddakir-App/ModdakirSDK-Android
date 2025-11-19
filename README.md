@@ -77,8 +77,22 @@ dependencies {
     implementation ("com.github.bumptech.glide:glide:4.15.1")
 }
 ```
+## Restoring Ongoing Calls
+To ensure the user returns to the ongoing call screen when reopening your app (for example after screen lock, pressing Home, or switching apps),
+add this code inside your Activity:
+```java
+@Override
+protected void onResume() {
+    super.onResume();
 
-
+    // If a call is currently active, bring the call screen to the front
+    if (CallState.isCalling()) {
+        Intent intent = new Intent(this, AgoraActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
+        startActivity(intent);
+    }
+}
+```
 
 ##  Quick Start
 
