@@ -3,6 +3,7 @@ Android Library connects you Directly with teacher to learn the Holy Qurâ€™an  ð
 
 ##  Getting Started
 These instructions will help you setup, integrate and run your project integrated with our SDK.
+**Note: The minSdkVersion should be 23 for supporting the 16KB Page Size**
 
 
 ##  Integration Steps
