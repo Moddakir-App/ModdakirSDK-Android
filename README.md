@@ -58,8 +58,8 @@ dependencies {
     implementation("com.akexorcist:localization:1.2.11")
 
     // Agora
-    implementation("io.agora.rtc:full-sdk:4.5.0")
-    implementation("io.agora.rtm:rtm-sdk:2.2.4")
+    implementation("io.agora.rtc:full-sdk:4.6.0")
+    implementation("io.agora:agora-rtm-lite:2.2.4")
 
     // RxJava
     implementation("io.reactivex.rxjava2:rxandroid:2.1.1")
